@@ -8,7 +8,7 @@ RUN echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
 RUN echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 RUN echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 #RUN source ~/.bashrc
-RUN gem install jekyll bundler i18n
+RUN gem install jekyll bundler
 
 EXPOSE 4000
 

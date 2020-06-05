@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t stefan736/jekyll:latest .
+docker build --no-cache -t stefan736/jekyll:latest .

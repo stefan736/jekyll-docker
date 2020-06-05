@@ -17,4 +17,3 @@ Serving a site:
 cd to jekyll-project
 docker run --rm --volume="$PWD:/home/work" -p 4000:4000 -it stefan736/jekyll:latest sh -c "bundle install && jekyll serve --host=0.0.0.0"
 ```
-`
